@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCB Advisory OÜ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffc0cb; /* розовый фон */
+      color: #000;
+      font-size: 24px;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ff8da1;
+  padding: 20px;
+  z-index: 1000;
+}
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      gap: 40px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+section {
+  height: 100vh;
+  padding: 140px 50px 50px 50px; /* увеличенный верхний отступ */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+    h1 {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 1000px;
+      margin-bottom: 20px;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero img {
+  margin-top: 30px;
+  max-width: 600px; /* уменьшенный размер изображения */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    .services, .benefits, .process {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .service-item, .benefit-item, .process-step {
+      background-color: rgba(255, 255, 255, 0.3);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #ff8da1;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav>
+    <ul>
+      <li><a href="#home">Avaleht</a></li>
+      <li><a href="#about">Meist</a></li>
+      <li><a href="#services">Teenused</a></li>
+      <li><a href="#benefits">Miks valida meid</a></li>
+      <li><a href="#process">Tööprotsess</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- Главный экран -->
+  <section id="home" class="hero">
+    <h1>CCB Advisory OÜ</h1>
+    <h2>Ärinõustamine, juhtimiskonsultatsioonid ja IT-tugi – aitame teie ettevõttel kasvada teadlikult ja kindlalt.</h2>
+    <p>Meie fookus on praktilistel lahendustel ja isikupärastatud lähenemisel. Toetame ettevõtteid strateegilises planeerimises, protsesside optimeerimises ja kaasaegses IT-halduses.</p>
+    <img src="https://images.unsplash.com/photo-1657727534685-36b09f84e193?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Consulting image">
+  </section>
+
+  <!-- Про нас -->
+  <section id="about">
+    <h2>Kes me oleme</h2>
+    <p>CCB Advisory OÜ on professionaalne nõustamisettevõte, mis pakub lahendusi ettevõtetele, kes soovivad tõsta oma konkurentsivõimet ja efektiivsust. Meie meeskonnal on aastatepikkune kogemus äristrateegia, juhtimise ja IT toetuse vallas.</p>
+    <p>Pakume klientidele läbimõeldud lahendusi, mis põhinevad andmetel, kogemustel ja kaasaegsetel tööriistadel. Me ei paku lihtsalt nõu – me viime muudatused ellu koos teiega.</p>
+  </section>
+
+  <!-- Сервисы -->
+  <section id="services">
+    <h2>Meie Teenused</h2>
+    <div class="services">
+      <div class="service-item">
+        <h3>Juhtimiskonsultatsioon</h3>
+        <p>Aitame luua tõhusaid juhtimisstruktuure, seada strateegilisi eesmärke ja juhtida muutusi organisatsioonis. Toome selgust ja süsteemi juhtimisse.</p>
+      </div>
+      <div class="service-item">
+        <h3>Ärinõustamine</h3>
+        <p>Analüüsime teie äriprotsesse ja turupositsiooni, et pakkuda kasumlikke arengusuundi. Toetame finantsmudelite, planeerimise ja kasvustrateegiatega.</p>
+      </div>
+      <div class="service-item">
+        <h3>IT Tugi ja Süsteemid</h3>
+        <p>Pakume kaasaegseid IT-lahendusi ning tehnilist tuge igapäevaseks tööks. Automatiseerime protsesse ja loome usaldusväärse digikeskkonna.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+  <section id="benefits">
+    <h2>Miks valida meid?</h2>
+    <div class="benefits">
+      <div class="benefit-item">
+        <h3>Isikupärane lähenemine</h3>
+        <p>Iga klient on erinev – meie lahendused on kohandatud teie konkreetsetele vajadustele ja eesmärkidele.</p>
+      </div>
+      <div class="benefit-item">
+        <h3>Tõestatud kogemus</h3>
+        <p>Meie meeskonnal on praktiline kogemus nii suurtes kui väikestes organisatsioonides, erinevates sektorites.</p>
+      </div>
+      <div class="benefit-item">
+        <h3>Tulemusele orienteeritud</h3>
+        <p>Meie töö lõppeesmärk on alati selge – teie ettevõtte kasv, efektiivsus ja jätkusuutlikkus.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Наш процесс -->
+  <section id="process">
+    <h2>Kuidas me töötame</h2>
+    <div class="process">
+      <div class="process-step">
+        <h3>1. Esmane analüüs</h3>
+        <p>Kohtume ja arutame teie ärivajadusi. Kaardistame hetkeolukorra ja tuvastame võtmeküsimused.</p>
+      </div>
+      <div class="process-step">
+        <h3>2. Lahenduste väljatöötamine</h3>
+        <p>Koostame tegevusplaani koos konkreetsete sammudega, ajakavade ja tulemusmõõdikutega.</p>
+      </div>
+      <div class="process-step">
+        <h3>3. Rakendamine ja tugi</h3>
+        <p>Viime kokkulepitud muudatused ellu ja jääme vajadusel toeks ka pärast projekti lõppu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact">
+    <h2>Võta meiega ühendust</h2>
+    <p>Soovid arutada, kuidas saame teie ettevõtet toetada? Kirjuta meile julgelt!</p>
+    <p>Meie eesmärk on aidata teil teha teadlikke ja tulemuslikke otsuseid – alustame koostööd juba täna!</p>
+    <br>
+    <p><strong>Aadress:</strong> Sepa tn 24-1, Tallinn 11712</p>
+    <p><strong>Email:</strong> <a href="mailto:info@ccbadvisory.org">info@ccbadvisory.org</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 CCB Advisory OÜ. Kõik õigused kaitstud.
+  </footer>
+
+</body>
+</html>
